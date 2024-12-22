@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="./js/app.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <a class="nav-logo" href="#">
+          <img src="./assets/img/earth-americas-solid.svg" alt="" />
+          <span class="app-name">Weather Now</span>
+        </a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Support</a>
+        </nav>
+      </div>
+    </header>
+    <h1 class="main-title">Weather App</h1>
+    <div class="main-container">
+      <div class="container">
+        <div class="weather-card" data-location="tbilisi">
+          <h2>City location:</h2>
+          <h3 class="city-location"></h3>
+          <div class="weather-body">
+            <span class="weather-status"></span>
+            <span class="temp-number"></span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="weather-card" data-location="zugdidi">
+          <h2>City location:</h2>
+          <h3 class="city-location"></h3>
+          <div class="weather-body">
+            <span class="weather-status"></span>
+            <span class="temp-number"></span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="weather-card" data-location="london">
+          <h2>City location:</h2>
+          <h3 class="city-location"></h3>
+          <div class="weather-body">
+            <span class="weather-status"></span>
+            <span class="temp-number"></span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="weather-card" data-location="berlin">
+          <h2>City location:</h2>
+          <h3 class="city-location"></h3>
+          <div class="weather-body">
+            <span class="weather-status"></span>
+            <span class="temp-number"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Weather Now provides accurate and real-time weather updates for cities
+        around the globe. Stay informed about current conditions, forecasts, and
+        more with our user-friendly app.
+      </p>
+    </footer>
+  </body>
+</html>
